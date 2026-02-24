@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./main.js" defer></script>
     <title>Produtos</title>
 </head>
+
 <body class="bg-gray-200 flex flex-col items-center justify-center h-screen gap-4">
     <h1 class="text-2xl">Lista Produtos</h1>
-    <input type="text" class="border px-4 py-2">
-    <button class="bg-blue-500 text-white px-4 py-2 rounded ">Adicionar</button>
-    <div></div>
+    <input
+        type="text"
+        class="border px-4 py-2 rounded"
+        id="produto"
+    >
+    <button
+        class="bg-blue-500 text-white px-4 py-2 rounded"
+        onclick="adicionarProduto()"
+    >
+        Adicionar
+    </button>
+    <div
+        class="flex flex-col gap-2"
+        id="lista"
+    ></div>
+
 </body>
 </html>
