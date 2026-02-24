@@ -26,13 +26,13 @@ function adicionarProduto() {
         div.className = 'flex w-80 justify-center gap-2'
 
         spanCodigo.textContent = codigo.value
-        spanCodigo.className = 'bg-blue-200 px-8 py-2 border rounded text-center'
+        spanCodigo.className = 'bg-orange-400 px-8 py-2 border border-black rounded text-center'
 
         spanProduto.textContent = produto.value
-        spanProduto.className = 'bg-blue-200 px-8 py-2 border rounded text-center'
+        spanProduto.className = 'bg-orange-400 px-8 py-2 border border-black rounded text-center'
         
         spanQuantidade.textContent = quantidade.value
-        spanQuantidade.className = 'bg-blue-200 px-8 py-2 border rounded text-center'
+        spanQuantidade.className = 'bg-orange-400 px-8 py-2 border border-black rounded text-center'
         
         div.appendChild(spanCodigo)
         div.appendChild(spanProduto)
